@@ -10,9 +10,12 @@
 
 @implementation CTMediator (activityVIew)
 
--(UIView *)activityVIew
+-(UIView *)activityVIewWithDic:(NSDictionary *)dic
 {
     
-   return  [self performTarget:@"activityVIew" action:@"activityVIew" params:nil shouldCacheTarget:YES];
+    NSLog(@"---%@---",dic);
+    
+    
+   return  [self performTarget:@"activityVIew" action:@"activityVIew" params:dic shouldCacheTarget:YES];
 }
 @end

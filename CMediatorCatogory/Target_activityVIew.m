@@ -13,6 +13,8 @@
 -(UIView *)Action_activityVIew:(NSDictionary *)dic
 {
     
-    return [[activityVIew alloc]init];
+    NSLog(@"%@",dic);
+    
+    return [[activityVIew alloc]initWithDic:dic];
 }
 @end

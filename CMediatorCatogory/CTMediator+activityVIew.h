@@ -9,6 +9,6 @@
 #import <CTMediator/CTMediator.h>
 
 @interface CTMediator (activityVIew)
--(UIView *)activityVIew;
+-(UIView *)activityVIewWithDic:(NSDictionary *)dic;
 
 @end
